@@ -9,7 +9,7 @@ paginate = 5
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
@@ -24,18 +24,18 @@ paginate = 5
   centerTheme = false
 
   # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+   favicon = "favicon.ico"
 
   # set all headings to their default size (depending on browser settings)
   # it's set to `true` by default
-  # oneHeadingSize = false
+   oneHeadingSize = false
 
 [params.twitter]
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
-  site = ""
+  creator = "markgreenlaw"
+  site = "markgreenlaw"
 
 [languages]
   [languages.en]
@@ -44,7 +44,7 @@ paginate = 5
     subtitle = "Helping me remember"
     owner = "Mark Greenlaw"
     keywords = ""
-    copyright = "2020 Mark Greenlaw"
+    copyright = "©2020 Mark Greenlaw"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
