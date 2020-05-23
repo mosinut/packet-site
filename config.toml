@@ -1,64 +1,114 @@
-theme = "terminal"
-baseURL = "http://packetcyclotron.com/"
-languageCode = "en-us"
-title = "The Packet Cyclotron"
-paginate = 5
+baseurl = "https://packetcyclotron.com"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Packet Cyclotron"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
 
-[params]
-# dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Technical discoveries and things I don't want to forget"
+  # mainSections = ["post","posts"]
+  mainSections = ["post"]
+  logo = "img/avatar-icon.jpg" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = false
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "green"
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+[Author]
+  name = "Mark Greenlaw"
+  website = "packetcyclotron.com"
+  email = "mark@packetcyclotron.com"
+  #facebook = "username"
+  #github = "username"
+  #gitlab = "username"
+  #bitbucket = "username"
+  twitter = "markgreenlaw"
+  #reddit = "username"
+  linkedin = "username"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  #instagram = "username"
+  #youtube = "user/username" # or channel/channelname
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #telegram = "username"
+  #500px = "username"
+  #codepen = "username"
+  #mastodon = "url"
+  #kaggle = "username"
+  #weibo = "username"
+  #slack = "username"
 
-  # show selector to switch language
-  showLanguageSelector = false
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
 
-  # set theme to full screen width
-  fullWidthTheme = false
+[[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 3
 
-  # center theme with default width
-  centerTheme = false
+# [[menu.main]]
+#     identifier = "samples"
+#     name = "Samples"
+#     weight = 2
 
-  # set a custom favicon (default is a `themeColor` square)
-   favicon = "favicon.ico"
+# [[menu.main]]
+#     parent = "samples"
+#     name = "Big Image Sample"
+#     url = "post/2017-03-07-bigimg-sample"
+#     weight = 1
 
-  # set all headings to their default size (depending on browser settings)
-  # it's set to `true` by default
-   oneHeadingSize = false
+# [[menu.main]]
+#     parent = "samples"
+#     name = "Math Sample"
+#     url = "post/2017-03-05-math-sample"
+#     weight = 2
 
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = "markgreenlaw"
-  site = "markgreenlaw"
+# [[menu.main]]
+#     parent = "samples"
+#     name = "Code Sample"
+#     url = "post/2016-03-08-code-sample"
+#     weight = 3
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Packet Cyclotron"
-    subtitle = "Helping me remember"
-    owner = "Mark Greenlaw"
-    keywords = ""
-    copyright = "©2020 Mark Greenlaw"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "PacketCyclotron"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+#[[menu.main]]
+#    name = "Tags"
+#    url = "tags"
+#    weight = 3

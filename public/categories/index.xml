@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Terminal</title>
-    <link>http://packetcyclotron.com/categories/</link>
-    <description>Recent content in Categories on Terminal</description>
+    <title>Categories on Packet Cyclotron</title>
+    <link>https://packetcyclotron.com/categories/</link>
+    <description>Recent content in Categories on Packet Cyclotron</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <managingEditor>mark@packetcyclotron.com (Mark Greenlaw)</managingEditor>
+    <webMaster>mark@packetcyclotron.com (Mark Greenlaw)</webMaster>
     
-	<atom:link href="http://packetcyclotron.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://packetcyclotron.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
