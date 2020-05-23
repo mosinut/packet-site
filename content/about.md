@@ -12,10 +12,9 @@ I use this site to record various technical discoveries, record solutions to pro
 
 ## Professional Information
 
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create
-the content.
+I've now been involved in the Internet Technology field for over 25 years. Over time I have had roles ranging from individual contributor to manager to technical leader. I have lead the design, planning, deployment, and support of complex Internet data center environments. Experienced in new build, retrofit of existing, and ongoing lifecycle support. Proven ability to deliver solutions based on available budget and time constraints.
 
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
+Proven ability to translate complex technical information to both technical and non-technical audiences. Experienced in development of process and operational documentation for deployments. Proven ability to lead technical teams though large integration and divestiture activities. Recognized for troubleshooting and strong understanding of network routers, switches and appliances. Responsible for providing key design, guidance, support and mentoring within the team, using a combination of new ideas, best practices and expertise.
 
 ## Disclaimer
 
@@ -28,4 +27,3 @@ If you'd like to send me an e-mail, you can reach me at mark at packetcyclotron 
 You can also find me at:
 
  - Twitter: https://twitter.com/markgreenlaw
- - Github: https://github.com/mosinut

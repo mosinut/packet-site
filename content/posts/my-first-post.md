@@ -5,7 +5,7 @@ author = "Mark"
 authorTwitter = "markgreenlaw" #do not include @
 cover = ""
 tags = ["test", "mic-check"]
-keywords = ["", ""]
+keywords = ["testing", "checking"]
 description = ""
 showFullContent = false
 +++
