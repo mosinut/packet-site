@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on Packet Cyclotron</title>
+    <link>https://packetcyclotron.com/tags/test/</link>
+    <description>Recent content in test on Packet Cyclotron</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>mark@packetcyclotron.com (Mark Greenlaw)</managingEditor>
+    <webMaster>mark@packetcyclotron.com (Mark Greenlaw)</webMaster>
+    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://packetcyclotron.com/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test Post</title>
+      <link>https://packetcyclotron.com/posts/my-first-post/</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      <author>mark@packetcyclotron.com (Mark Greenlaw)</author>
+      <guid>https://packetcyclotron.com/posts/my-first-post/</guid>
+      <description>This is a test post.</description>
+    </item>
+    
+  </channel>
+</rss>
