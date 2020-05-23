@@ -1,3 +1,4 @@
-baseURL = "http://example.org/"
+theme = "ramium"
+baseURL = "http://packetcyclotron.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "The Packet Cyclotron"
