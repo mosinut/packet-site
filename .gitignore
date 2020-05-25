@@ -1,2 +1,3 @@
 # don't check in the public dir
-#public/
+# azure static site will rebuild it as part of the CI job
+public/

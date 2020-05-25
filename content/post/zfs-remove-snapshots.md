@@ -2,6 +2,7 @@
 title: "Zfs Remove Snapshots"
 date: 2020-05-21T18:32:40-04:00
 draft: false
+tags: ["zfs", "freenas", "howto"]
 ---
 
 For a number of years I have run FreeNAS has a home storage appliance to do all the things that you do with storage at home.
