@@ -7,7 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Packet Cyclotron - Packet Cyclotron</title>
+  <title>Zfs Remove Snapshots - Packet Cyclotron</title>
+  <meta name="description" content="For a number of years I have run FreeNAS has a home storage appliance to do all the things that you do with storage at home.
+While cleaning up and moving things around a while back I decided that I wanted to be able to delete the snapshots that were being used to free up the disk space right now. There was no pressing need for this, I just wanted to not way for them to naturally time out.">
   <meta name="author" content="Mark Greenlaw"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -28,14 +30,66 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/packetcyclotron.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/packetcyclotron.com\/post\/zfs-remove-snapshots\/",
+          "name": "Zfs remove snapshots"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Mark Greenlaw"
+  },
+  "headline": "Zfs Remove Snapshots",
+  "description" : "For a number of years I have run FreeNAS has a home storage appliance to do all the things that you do with storage at home.\nWhile cleaning up and moving things around a while back I decided that I wanted to be able to delete the snapshots that were being used to free up the disk space right now. There was no pressing need for this, I just wanted to not way for them to naturally time out.",
+  "inLanguage" : "en",
+  "wordCount":  273 ,
+  "datePublished" : "2020-05-21T18:32:40",
+  "dateModified" : "2020-05-21T18:32:40",
+  "image" : "https:\/\/packetcyclotron.com\/img\/avatar-icon.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "https:\/\/packetcyclotron.com\/post\/zfs-remove-snapshots\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/packetcyclotron.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/packetcyclotron.com\/img\/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="Packet Cyclotron" />
+<meta property="og:title" content="Zfs Remove Snapshots" />
+<meta property="og:description" content="For a number of years I have run FreeNAS has a home storage appliance to do all the things that you do with storage at home.
+While cleaning up and moving things around a while back I decided that I wanted to be able to delete the snapshots that were being used to free up the disk space right now. There was no pressing need for this, I just wanted to not way for them to naturally time out.">
 <meta property="og:image" content="https://packetcyclotron.com/img/avatar-icon.png" />
-<meta property="og:url" content="https://packetcyclotron.com/" />
+<meta property="og:url" content="https://packetcyclotron.com/post/zfs-remove-snapshots/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Packet Cyclotron" />
 
-  <meta name="twitter:title" content="Packet Cyclotron" />
+  <meta name="twitter:title" content="Zfs Remove Snapshots" />
+  <meta name="twitter:description" content="For a number of years I have run FreeNAS has a home storage appliance to do all the things that you do with storage at home.
+While cleaning up and moving things around a while back I decided that I …">
   <meta name="twitter:image" content="https://packetcyclotron.com/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@markgreenlaw" />
@@ -168,46 +222,14 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
+            <div class="post-heading">
               
-                <h1>Packet Cyclotron</h1>
-              
-              
-                <hr class="small">
+                <h1>Zfs Remove Snapshots</h1>
               
               
-                
-                  <span class="page-subheading">Technical discoveries and things I don&#39;t want to forget</span>
-                
               
               
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-
-    
-  <div role="main" class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-
-        <div class="posts-list">
-          
-          
-            <article class="post-preview">
-    <a href="https://packetcyclotron.com/post/zfs-remove-snapshots/">
-        <h2 class="post-title">Zfs Remove Snapshots</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
+                <span class="post-meta">
   
   
   <i class="fas fa-calendar"></i>&nbsp;Posted on May 21, 2020
@@ -227,76 +249,81 @@
 </span>
 
 
-    </p>
-    <div class="post-entry">
-        
-        For a number of years I have run FreeNAS has a home storage appliance to do all the things that you do with storage at home.
-While cleaning up and moving things around a while back I decided that I wanted to be able to delete the snapshots that were being used to free up the disk space right now. There was no pressing need for this, I just wanted to not way for them to naturally time out.
-        <a href="https://packetcyclotron.com/post/zfs-remove-snapshots/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://packetcyclotron.com/post/starting-checkpoint/">
-        <h2 class="post-title">Starting Checkpoint</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on May 20, 2020
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;91&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Mark Greenlaw
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        My goal for this blog is to collect together the notes and scraps I&rsquo;ve collected in one spot so I don&rsquo;t have to find them again. This would save me both time and keystrokes searching around to find how to do X yet again. I also would like to include some of the technical things I have found both professionally and personally that have brought a moment to joy to the day.
-        <a href="https://packetcyclotron.com/post/starting-checkpoint/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-
-</article>
-          
+              
+            </div>
+          </div>
         </div>
-
-        
       </div>
     </div>
-  </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>For a number of years I have run FreeNAS has a home storage appliance to do all the things that you do with storage at home.</p>
+<p>While cleaning up and moving things around a while back I decided that I wanted to be able to delete the snapshots that were being used to free up the disk space <em>right now</em>. There was no pressing need for this, I just wanted to not way for them to naturally time out.</p>
+<ol>
+<li>See how much space we are using for snapshots vs. <em>real</em> data.</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">mark@freenas:~ % zfs list -o space -t all zpool1/mark
+NAME           AVAIL   USED  USEDSNAP  USEDDS  USEDREFRESERV  USEDCHILD
+zpool1/mark    1.86T   295G     10.2G    285G              <span class="m">0</span>          <span class="m">0</span>
+</code></pre></div><ol start="2">
+<li>List all the snapshots for the dataset. For example if I want to see all the snapshots and the used space for everything in the creatively named &lsquo;mark&rsquo; dataset I can do:</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">mark@freenas:~ % zfs list -t snapshot <span class="p">|</span> grep /mark <span class="p">|</span> less
+</code></pre></div><p>This will give me a bunch of lines like so:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">NAME                                  USED  AVAIL  REFER  MOUNTPOINT
+zpool1/mark@auto-20200503.0800-4w            59.8K      -   263G  -
+zpool1/mark@auto-20200503.0900-4w            59.8K      -   263G  -
+zpool1/mark@auto-20200503.1000-4w            56.9K      -   263G  -
+zpool1/mark@auto-20200503.1100-4w            56.9K      -   263G  -
+</code></pre></div><ol start="3">
+<li>We can simulate what we are going to free up by deleting the snapshots. The &ldquo;-n&rdquo; is the key here. <strong>BE CAREFUL</strong></li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">mark@freenas:~ % zfs destroy -rvn zpool1/mark@%
+<span class="c1"># A whole bunch of output snipped</span>
+would reclaim 10.2G
+</code></pre></div><ol start="4">
+<li>When you are ready to do the actual deletion just run the same command you tested without the &ldquo;-n&rdquo;.</li>
+</ol>
+<p>That is it. The command is very quick, you don&rsquo;t have to wait around for stuff to happen.</p>
+<p>Enjoy your new found free space!</p>
+
+
+        
+
+        
+
+        
+          
+
+          
+        
+      </article>
 
       
-    <div class="page-meta">
-  
-  
-  
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://packetcyclotron.com/post/starting-checkpoint/" data-toggle="tooltip" data-placement="top" title="Starting Checkpoint">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
 </div>
 
-
-  
+      
 <footer>
   <div class="container">
     <div class="row">
@@ -329,7 +356,7 @@ While cleaning up and moving things around a while back I decided that I wanted 
               </li>
           
           <li>
-            <a href="/index.xml" title="RSS">
+            <a href="" title="RSS">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fas fa-rss fa-stack-1x fa-inverse"></i>

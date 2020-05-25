@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Packet Cyclotron</title>
+    <link>https://packetcyclotron.com/post/</link>
+    <description>Recent content in Posts on Packet Cyclotron</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>mark@packetcyclotron.com (Mark Greenlaw)</managingEditor>
+    <webMaster>mark@packetcyclotron.com (Mark Greenlaw)</webMaster>
+    <lastBuildDate>Thu, 21 May 2020 18:32:40 -0400</lastBuildDate>
+    
+	<atom:link href="https://packetcyclotron.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zfs Remove Snapshots</title>
+      <link>https://packetcyclotron.com/post/zfs-remove-snapshots/</link>
+      <pubDate>Thu, 21 May 2020 18:32:40 -0400</pubDate>
+      <author>mark@packetcyclotron.com (Mark Greenlaw)</author>
+      <guid>https://packetcyclotron.com/post/zfs-remove-snapshots/</guid>
+      <description>For a number of years I have run FreeNAS has a home storage appliance to do all the things that you do with storage at home.
+While cleaning up and moving things around a while back I decided that I wanted to be able to delete the snapshots that were being used to free up the disk space right now. There was no pressing need for this, I just wanted to not way for them to naturally time out.</description>
+    </item>
+    
+    <item>
+      <title>Starting Checkpoint</title>
+      <link>https://packetcyclotron.com/post/starting-checkpoint/</link>
+      <pubDate>Wed, 20 May 2020 18:18:43 -0400</pubDate>
+      <author>mark@packetcyclotron.com (Mark Greenlaw)</author>
+      <guid>https://packetcyclotron.com/post/starting-checkpoint/</guid>
+      <description>My goal for this blog is to collect together the notes and scraps I&amp;rsquo;ve collected in one spot so I don&amp;rsquo;t have to find them again. This would save me both time and keystrokes searching around to find how to do X yet again. I also would like to include some of the technical things I have found both professionally and personally that have brought a moment to joy to the day.</description>
+    </item>
+    
+  </channel>
+</rss>
