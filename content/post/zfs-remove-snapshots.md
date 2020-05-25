@@ -1,5 +1,6 @@
 ---
 title: "Zfs Remove Snapshots"
+subtitle: "Freeing up space right now!"
 date: 2020-05-21T18:32:40-04:00
 draft: false
 tags: ["zfs", "freenas", "howto"]
@@ -7,7 +8,7 @@ tags: ["zfs", "freenas", "howto"]
 
 For a number of years I have run FreeNAS has a home storage appliance to do all the things that you do with storage at home.
 
-While cleaning up and moving things around a while back I decided that I wanted to be able to delete the snapshots that were being used to free up the disk space *right now*. There was no pressing need for this, I just wanted to not way for them to naturally time out.
+While cleaning up and moving things around a while back I decided that I wanted to be able to delete the snapshots that were being used to free up the disk space *right now*. There was no pressing need for this, I just wanted to not wait for them to naturally time out.
 
 1. See how much space we are using for snapshots vs. *real* data.
 ```bash
