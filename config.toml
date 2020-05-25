@@ -1,4 +1,4 @@
-baseurl = "https://packetcyclotron.com"
+baseurl = "https://blog.packetcyclotron.com"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Packet Cyclotron"
