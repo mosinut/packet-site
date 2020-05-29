@@ -63,5 +63,27 @@ Looking at just the flags
  0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |  hlen | res |N|C|E|U|A|P|R|S|F|             Window            |
+|       | 000 |S|W|C|R|C|S|S|Y|I|                               |
+|       |     | |R|E|G|K|H|T|N|N|                               |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
+Above are the headers we are going to be working with along with a expansion bytes 13 and 14 of the TCP header (with the ECN bits added in RFC 3168, and the Nonce Sum bit from RFC 3540).
+
+Looking at the filter string from first example I used lets break this apart:
+```
+'tcp[13] & 2!=0'
+```
+'tcp[13]'  <--- We will be looking at the byte at offset 13 in the TCP header
+
+'&' <--- Preform a bitwise AND operation
+
+2 <--- with the dec value of 2
+
+'!=0' <--- Capture the packet if the value returned by the AND is NOT 0
+
+If we convert the 2 to binary, and look at what the byte at offset 13 will be when the SYN bit is set we get:
+```
+0000 0010
+0000 0010
+---------- 
+0000 0010 !=0 Capture the packet
